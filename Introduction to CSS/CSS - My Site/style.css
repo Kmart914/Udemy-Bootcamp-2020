@@ -29,6 +29,41 @@
     margin-left: 65%;
   }
 
+  .skills{
+    height: 800px;
+    background-color: #ffd460;
+
+  }
+
+  #skillOne, #skillTwo, #skillThree {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+  }
+
+  .skillOne, .skillTwo, .skillThree {
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 8%;
+  }
+
+  .skillHeader {
+    text-align: center;
+   color: #2d4059;
+  }
+
+  .skillTitle {
+    text-align: center;
+    padding-top: 155px;
+    color: #2d4059;
+  }
+
+
   body{
+    margin: 0;
+  }
+
+  h1, h2{
+    font-family: 'Fjalla One', sans-serif;
     margin: 0;
   }

@@ -6,14 +6,19 @@
 
 }
 
+.logo {
+  font-family: 'Ubuntu';
+  font-size: 3rem;
+}
+
 
 /* Title Page */
 
 
 #title {
   background-color: #ff4c68;
-  z-index: 1;
 }
+
 
 .titleHeader {
   font-family: "Montserrat";
@@ -34,25 +39,36 @@
 
 .titleText {
   margin-top: 15%;
+  padding-bottom: 15%;
+
 }
 
 .phoneImage {
-  transform: rotate(30deg);
-  margin-top: 25%
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  padding-top: 35%;
+  margin-left: 25%;
 }
 
 
 /* Features */
 
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+}
+
 h3, p {
   text-align: center;
 }
 
-h3 {
+h3,h4 {
   font-family: 'Montserrat';
 }
 
-p {
+p, li {
   font-family: 'Ubuntu'
 }
 
@@ -73,7 +89,6 @@ p {
 /* Testimonials */
 
 #testimonials {
-  padding: 7% 15%;
   text-align: center;
   background-color: #ff4c68;
 }
@@ -100,4 +115,38 @@ p {
 .testBox {
   display: inline-block;
   text-align: center;
+}
+
+.carousel-item{
+  padding: 5% 15%;
+}
+
+/* Press */
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.pressImage {
+  width: 12%;
+  margin: 20px 20px 50px
+}
+
+/* Pricing */
+
+.pricingHeader{
+  font-family: 'Montserrat';
+  text-align: center;
+  margin-top: 5%;
+}
+
+.pricingSubheader{
+  margin-bottom: 2%;
+  color: grey;
+}
+
+.card-title{
+  font-family: 'Montserrat';
 }

@@ -1,0 +1,103 @@
+
+/* NavBar */
+.navbar-brand, .nav-link {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+/* Title Page */
+
+
+#title {
+  background-color: #ff4c68;
+  z-index: 1;
+}
+
+.titleHeader {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.btn {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.fab {
+  padding-right: 10px;
+}
+
+.titleText {
+  margin-top: 15%;
+}
+
+.phoneImage {
+  transform: rotate(30deg);
+  margin-top: 25%
+}
+
+
+/* Features */
+
+h3, p {
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Montserrat';
+}
+
+p {
+  font-family: 'Ubuntu'
+}
+
+.featureBox {
+  text-align: center;
+  padding-top: 200px;
+  margin-bottom: 200px;
+}
+
+.featureIcon {
+  color: #ff4c68;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 25px;
+
+}
+
+/* Testimonials */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.testText {
+  color: white;
+  font-family: 'Ubuntu';
+}
+
+.testName{
+  font-style: italic;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Ubuntu';
+
+}
+
+.testimonialImage{
+  width: 10%;
+  border-radius: 100%;
+  align-items: center;
+  }
+
+.testBox {
+  display: inline-block;
+  text-align: center;
+}

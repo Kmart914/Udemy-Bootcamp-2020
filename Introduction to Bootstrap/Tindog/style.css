@@ -1,9 +1,7 @@
-
 /* NavBar */
 .navbar-brand, .nav-link {
   color: white;
   font-family: 'Ubuntu', sans-serif;
-
 }
 
 .logo {
@@ -11,14 +9,10 @@
   font-size: 3rem;
 }
 
-
 /* Title Page */
-
-
 #title {
   background-color: #ff4c68;
 }
-
 
 .titleHeader {
   font-family: "Montserrat";
@@ -40,7 +34,6 @@
 .titleText {
   margin-top: 15%;
   padding-bottom: 15%;
-
 }
 
 .phoneImage {
@@ -51,9 +44,7 @@
   margin-left: 25%;
 }
 
-
 /* Features */
-
 #features {
   background-color: #fff;
   position: relative;
@@ -64,7 +55,7 @@ h3, p {
   text-align: center;
 }
 
-h3,h4 {
+h3, h4 {
   font-family: 'Montserrat';
 }
 
@@ -83,11 +74,9 @@ p, li {
   display: inline-block;
   text-align: center;
   padding-bottom: 25px;
-
 }
 
 /* Testimonials */
-
 #testimonials {
   text-align: center;
   background-color: #ff4c68;
@@ -98,32 +87,30 @@ p, li {
   font-family: 'Ubuntu';
 }
 
-.testName{
+.testName {
   font-style: italic;
   color: white;
   font-size: 1rem;
   font-family: 'Ubuntu';
-
 }
 
-.testimonialImage{
+.testimonialImage {
   width: 10%;
   border-radius: 100%;
   align-items: center;
-  }
+}
 
 .testBox {
   display: inline-block;
   text-align: center;
 }
 
-.carousel-item{
+.carousel-item {
   padding: 5% 15%;
 }
 
 /* Press */
-
-#press{
+#press {
   background-color: #ff4c68;
   text-align: center;
   padding-bottom: 3%;
@@ -135,18 +122,65 @@ p, li {
 }
 
 /* Pricing */
-
-.pricingHeader{
+.pricingHeader {
   font-family: 'Montserrat';
   text-align: center;
   margin-top: 5%;
 }
 
-.pricingSubheader{
+.pricingSubheader {
   margin-bottom: 2%;
   color: grey;
 }
 
-.card-title{
+.card-title {
   font-family: 'Montserrat';
+}
+
+#cta{
+  text-align: center;
+  padding: 5%;
+}
+
+/* Media Queries */
+
+@media (max-width: 900px) {
+
+  #title {
+  text-align: center;
+}
+
+.phoneImage {
+  width: 60%;
+  transform: rotate(0deg);
+  position: relative;
+  padding-top: 5%;
+  margin: 0;
+}
+
+.titleText{
+  padding-bottom: 0;
+
+}
+
+  #features {
+
+  }
+
+  .featureBox {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .testimonialImage {
+    width: 20%;
+    border-radius: 100%;
+    align-items: center;
+  }
+
+  .pressImage {
+    width: 25%;
+    margin: 20px 20px 50px
+  }
 }

@@ -1,0 +1,64 @@
+section {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 150px;
+}
+
+body {
+  background-color: gray;
+}
+button {
+  height: 125px;
+  width: 125px;
+  background-color: white;
+  border-radius: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+}
+
+.drumImage {
+  height: 80px;
+  width: 80px;
+
+}
+
+.container {
+padding-top: 150px;
+}
+
+.row {
+  align-items: center;
+}
+
+.crash {
+  background-image: url("images/crash.png");
+}
+
+.kick {
+  background-image: url("images/kick.png");
+}
+
+.snare {
+  background-image: url("images/snare.png");
+}
+
+.tom1 {
+  background-image: url("images/tom1.png");
+}
+
+.tom2{
+  background-image: url("images/tom2.png");
+}
+
+.tom3{
+  background-image: url("images/tom3.png");
+}
+
+.tom4{
+  background-image: url("images/tom4.png");
+}

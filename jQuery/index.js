@@ -1,5 +1,3 @@
+$("h1").addClass("bigTitle margin50");
 
-$(document).ready(function(){
-  $("h1").css("color", "red");
-
-})
+$("button").html("Don't click me");

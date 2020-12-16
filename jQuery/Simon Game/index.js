@@ -47,6 +47,8 @@ function checkAnswer(currentLevel) {
 
 $("body").css("background-color", "red");
 $("h1").text("Wrong, try again!")
+var audio = new Audio("sounds/wrong.mp3");
+ audio.play();
 setTimeout("location.href = 'index.html'",2000);
 }
 

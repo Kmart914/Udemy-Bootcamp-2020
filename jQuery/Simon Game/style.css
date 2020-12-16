@@ -11,12 +11,14 @@ h1 {
 }
 
 button {
-  height: 250px;
-  width: 250px;
-  border-radius: 15px;
+  height: 200px;
+  width: 200px;
+  border-radius: 25px;
   border-color: black;
-  border-width: 5px;
+  border-width: 8px;
 }
+
+
 
 .buttons {
   text-align: center;

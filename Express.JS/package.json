@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "express.js",
+  "version": "1.0.0",
+  "description": "Express Server",
+  "main": "server.js",
+  "author": "Kevin Martzolf",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

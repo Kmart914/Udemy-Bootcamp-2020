@@ -1,0 +1,12 @@
+{
+  "name": "expressbmi",
+  "version": "1.0.0",
+  "description": "BMI calculator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Kevin Martzolf",
+  "license": "ISC"
+}

@@ -1,0 +1,25 @@
+.card {
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+.dateCard{
+  float: none;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  background-color: #231934;
+  height: 75px;
+
+}
+
+.dateCardText{
+color: white;
+text-align: center;
+}
+
+body{
+  background-image: url("kale-salad.jpg");
+
+}

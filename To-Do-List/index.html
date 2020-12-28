@@ -6,15 +6,26 @@
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
   </head>
   <body>
-
-
-    <div class="dateCard row align-items-center justify-content-center">
-      <div class="dateCardText col justify-self-center">This will be centered vertically and horizontally
+    <div class="col d-flex justify-content-center">
+      <div class="card dateCard" style="width: 18rem">
+        <div class="card-body dateText">Monday, December 28th</div>
       </div>
     </div>
+
+
+    <div class="card"  style="width: 18rem">
+            <div class="card-header">Todays Tasks:</div>
+              <div class="card-body">
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="check1" id="taskText">
+                      <input type="checkbox" class="form-check-input" id="task" name="vehicle1" value="something" checked="">Task 1</label>
+                </div>
+              </div>
+      </div>
+
   </body>
 </html>

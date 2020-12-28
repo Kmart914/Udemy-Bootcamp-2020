@@ -1,25 +1,33 @@
 .card {
-  text-align: center;
-  margin: 0 auto;
-  float: none;
-  margin-bottom: 10px;
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
 }
+
 .dateCard{
-  float: none;
-  margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
   border-radius: 5px;
   background-color: #231934;
-  height: 75px;
 
 }
 
-.dateCardText{
+.dateText{
 color: white;
 text-align: center;
+font-weight: bold;
 }
 
 body{
   background-image: url("kale-salad.jpg");
+}
 
+#taskText{
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 20px;
 }

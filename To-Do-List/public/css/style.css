@@ -7,14 +7,18 @@
 .dateCard{
   margin-top: 50px;
   border-radius: 5px;
-  background-color: #231934;
+  background-color: #003441;
 
 }
 
+
+
 .dateText{
+font-family: 'Josefin Sans', sans-serif;
 color: white;
 text-align: center;
 font-weight: bold;
+font-size: 20px;
 }
 
 body{
@@ -22,12 +26,29 @@ body{
 }
 
 #taskText{
+  font-family: 'Roboto', sans-serif;
   color: black;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .card-header {
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
   font-size: 20px;
+  border: 0px;
+  background-color: white;
+}
+
+.strike:checked + span{
+  text-decoration:line-through
+}
+
+ .newTaskButton {
+   font-family: 'Roboto', sans-serif;
+  margin-right: 10px;
+  background-color: #003441;
+  color: white;
+  font-size: 20px;
+
 }

@@ -1,3 +1,25 @@
 body {
   background-color: red;
 }
+
+.navbar {
+  background-color: #154854;
+}
+
+.socialLink {
+  height: 30px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.slideImage {
+  height: 500px;
+margin: auto;
+}
+
+.slideContainer {
+  background-color: white;
+  width: 100%;
+}

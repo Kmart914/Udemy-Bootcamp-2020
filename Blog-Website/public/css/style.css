@@ -2,6 +2,26 @@ html, body {
   height: 100%;
 }
 
+
+
+h1 {
+  font-family: 'Staatliches', cursive;
+
+}
+
+p, .composeText, .navText {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.homeLayout{
+  margin-top: 100px;
+}
+
+.composeLayout{
+  margin-top: 100px;
+}
+
 .navbar {
   background-color: #154854;
 }
@@ -26,6 +46,7 @@ margin: auto;
 
 .footerText {
   color: white;
+  padding-top: 10px;
 }
 
 .blogFooter{

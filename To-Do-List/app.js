@@ -31,7 +31,6 @@ var day = today.toLocaleDateString("en-us", options)
 
 
 app.get("/", function(req, res){
-  res.render('header');
   res.render('list', {kindOfDay: day, addedTasks: addTasks});
 
 });

@@ -26,7 +26,7 @@ var day = today.toLocaleDateString("en-us", options)
 
 
 
-mongoose.connect("mongodb://localhost:27017/tasksDB", {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect("mongodb+srv://kmart914:KAm9141992@cluster0.8w6nh.mongodb.net/TasksDB?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true})
 
 const taskSchema = {
   name: String
@@ -49,13 +49,13 @@ const task3 = new Task({
 
 const defaultItems = [task1, task2, task3];
 
-// const listSchema = {
-//   name: String,
-//   items: [taskSchema]
-// }
-//
-// const List = mongoose.model("List", taskSchema);
-//
+const listSchema = {
+  name: String,
+  items: [taskSchema]
+}
+
+const List = mongoose.model("List", taskSchema);
+
 
 
 
@@ -85,8 +85,8 @@ app.get("/", function(req, res){
 
 // app.get("/:customListName", function(req, res){
 //    const customListName = req.params.customListName;
-//
-//    List.find({name: customListName}, function(err, foundTask){
+
+//    List.find({name: customListName}, function(err, foundList){
 //      if(!err){
 //        if(!foundList){
 //          //Create a new List
@@ -125,12 +125,10 @@ Task.deleteOne({_id:checkedId}, function(err){
     console.log(err);
   }else{
     res.redirect("/");
-
-  }
-})
-
+    }
+  })
 })
 
 
 app.listen(process.env.PORT || 3000, function(){
-})
+});

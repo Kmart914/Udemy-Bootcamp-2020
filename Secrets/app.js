@@ -29,7 +29,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb://localhost:27017/userDB", {useNewUrlParser: true});
+mongoose.connect("mongodb://localhost:27017/userDB", {useNewUrlParser: true, useUnifiedTopology: true});
 mongoose.set("useCreateIndex", true);
 
 const userSchema = new mongoose.Schema({
@@ -38,8 +38,6 @@ const userSchema = new mongoose.Schema({
   googleId: String,
   secret: String
 });
-
-// userSchema.plugin(encrypt, {secret: process.env.SECRET, encryptedFields:["password"]});
 
 
 userSchema.plugin(passportLocalMongoose);
@@ -65,8 +63,8 @@ passport.use(new GoogleStrategy({
     userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo"
     },
   function(accessToken, refreshToken, profile, cb) {
-    User.findOrCreate({ googleId: profile.id }, function (err, user) {
-      return cb(err, user);
+    User.findOrCreate({ username: profile.emails[0].value, googleId: profile.id, }, function (err, user) {
+  return cb(err, user);
     });
   }
 ));
@@ -78,7 +76,7 @@ app.get("/", function(req, res){
 });
 
 app.get("/auth/google",
-passport.authenticate('google', {scope: [ 'https://www.googleapis.com/auth/userinfo.email']}));
+passport.authenticate('google', {scope: ['profile',"email"]}));
 
 app.get("/auth/google/secrets",
   passport.authenticate('google', { failureRedirect: "/login" }),

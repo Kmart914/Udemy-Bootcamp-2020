@@ -1,0 +1,46 @@
+body{
+  background-color: #ebeaeb;
+  margin: 0;
+}
+
+nav{
+  background-color: #f5b21a;
+  height: 100px;
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+
+}
+
+.title{
+  font-family: 'McLaren', cursive;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 25px;
+  color: white;
+
+}
+
+footer{
+  text-align: center;
+}
+
+p{
+  font-family: 'McLaren', cursive;
+}
+
+.noteBox {
+  background-color: white;
+  text-align: center;
+  width: 220px;
+  height: 220px;
+  border-radius: 8px;
+  margin-left: 75px;
+  margin-top: 50px;
+}
+
+.noteTitle{
+  font-weight: bold;
+  padding-top: 10px;
+}

@@ -3,9 +3,9 @@ import React from "react";
 function Header(){
   return(
 
-    <nav>
+    <header>
     <h1 className="title">Keeper</h1>
-    </nav>
+    </header>
 
   );
 }

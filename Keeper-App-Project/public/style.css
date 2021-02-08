@@ -45,6 +45,7 @@ p{
   border-radius: 8px;
   margin-left: 75px;
   margin-top: 50px;
+  float: left;
 }
 
 .noteTitle{
